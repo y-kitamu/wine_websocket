@@ -1,0 +1,16 @@
+; websocket.dll のエクスポート定義
+LIBRARY websocket
+EXPORTS
+    WebSocketCreateClientHandle
+    WebSocketCreateServerHandle
+    WebSocketDeleteHandle
+    WebSocketAbortHandle
+    WebSocketBeginClientHandshake
+    WebSocketEndClientHandshake
+    WebSocketBeginServerHandshake
+    WebSocketEndServerHandshake
+    WebSocketSend
+    WebSocketReceive
+    WebSocketGetAction
+    WebSocketCompleteAction
+    WebSocketGetGlobalProperty
